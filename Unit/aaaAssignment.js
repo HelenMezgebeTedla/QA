@@ -56,20 +56,7 @@ const result = removeItem(arr, 'a');
 expect(result).toEqual(['b']);
 });
 
-// 5. Check password length
 
-function isValidPassword(password) {
-  return password.length >= 6;
-}
-
-test('returns true for valid password length', () => {
-  // Arrange
-  const password = "secure123";
-  // Act
-  const result = isValidPassword(password);
-  // Assert
-  expect(result).toBe(true);
-});
 
 // 5. Check password length
 
